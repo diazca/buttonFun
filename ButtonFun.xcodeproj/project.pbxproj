@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52C7260116D5A3A5007AB318 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C7260016D5A3A5007AB318 /* UIKit.framework */; };
+		52C7260316D5A3A5007AB318 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C7260216D5A3A5007AB318 /* Foundation.framework */; };
+		52C7260516D5A3A5007AB318 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C7260416D5A3A5007AB318 /* CoreGraphics.framework */; };
+		52C7260B16D5A3A5007AB318 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52C7260916D5A3A5007AB318 /* InfoPlist.strings */; };
+		52C7260D16D5A3A5007AB318 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C7260C16D5A3A5007AB318 /* main.m */; };
+		52C7261116D5A3A5007AB318 /* ButtonFunAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C7261016D5A3A5007AB318 /* ButtonFunAppDelegate.m */; };
+		52C7261316D5A3A5007AB318 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C7261216D5A3A5007AB318 /* Default.png */; };
+		52C7261516D5A3A5007AB318 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C7261416D5A3A5007AB318 /* Default@2x.png */; };
+		52C7261716D5A3A5007AB318 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C7261616D5A3A5007AB318 /* Default-568h@2x.png */; };
+		52C7261A16D5A3A5007AB318 /* ButtonFunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C7261916D5A3A5007AB318 /* ButtonFunViewController.m */; };
+		52C7261D16D5A3A5007AB318 /* ButtonFunViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C7261B16D5A3A5007AB318 /* ButtonFunViewController_iPhone.xib */; };
+		52C7262016D5A3A5007AB318 /* ButtonFunViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C7261E16D5A3A5007AB318 /* ButtonFunViewController_iPad.xib */; };
+		52C7262716D5BC67007AB318 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C7262616D5BC67007AB318 /* Default.png */; };
+		52C7262916D5BDB0007AB318 /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C7262816D5BDB0007AB318 /* app_icon.png */; };
+		52C7262B16D5C064007AB318 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C7262A16D5C064007AB318 /* Default-Portrait~ipad.png */; };
+		AE3ABC1416D6B51700AC70BD /* BFSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3ABC1316D6B51700AC70BD /* BFSquare.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52C725FD16D5A3A5007AB318 /* ButtonFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C7260016D5A3A5007AB318 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52C7260216D5A3A5007AB318 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52C7260416D5A3A5007AB318 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52C7260816D5A3A5007AB318 /* ButtonFun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonFun-Info.plist"; sourceTree = "<group>"; };
+		52C7260A16D5A3A5007AB318 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52C7260C16D5A3A5007AB318 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52C7260E16D5A3A5007AB318 /* ButtonFun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ButtonFun-Prefix.pch"; sourceTree = "<group>"; };
+		52C7260F16D5A3A5007AB318 /* ButtonFunAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonFunAppDelegate.h; sourceTree = "<group>"; };
+		52C7261016D5A3A5007AB318 /* ButtonFunAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonFunAppDelegate.m; sourceTree = "<group>"; };
+		52C7261216D5A3A5007AB318 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		52C7261416D5A3A5007AB318 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		52C7261616D5A3A5007AB318 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		52C7261816D5A3A5007AB318 /* ButtonFunViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonFunViewController.h; sourceTree = "<group>"; };
+		52C7261916D5A3A5007AB318 /* ButtonFunViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonFunViewController.m; sourceTree = "<group>"; };
+		52C7261C16D5A3A5007AB318 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ButtonFunViewController_iPhone.xib; sourceTree = "<group>"; };
+		52C7261F16D5A3A5007AB318 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ButtonFunViewController_iPad.xib; sourceTree = "<group>"; };
+		52C7262616D5BC67007AB318 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		52C7262816D5BDB0007AB318 /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
+		52C7262A16D5C064007AB318 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		AE3ABC1216D6B51700AC70BD /* BFSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFSquare.h; sourceTree = "<group>"; };
+		AE3ABC1316D6B51700AC70BD /* BFSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFSquare.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52C725FA16D5A3A5007AB318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C7260116D5A3A5007AB318 /* UIKit.framework in Frameworks */,
+				52C7260316D5A3A5007AB318 /* Foundation.framework in Frameworks */,
+				52C7260516D5A3A5007AB318 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52C725F416D5A3A5007AB318 = {
+			isa = PBXGroup;
+			children = (
+				52C7262A16D5C064007AB318 /* Default-Portrait~ipad.png */,
+				52C7262816D5BDB0007AB318 /* app_icon.png */,
+				52C7262616D5BC67007AB318 /* Default.png */,
+				52C7260616D5A3A5007AB318 /* ButtonFun */,
+				52C725FF16D5A3A5007AB318 /* Frameworks */,
+				52C725FE16D5A3A5007AB318 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52C725FE16D5A3A5007AB318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52C725FD16D5A3A5007AB318 /* ButtonFun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52C725FF16D5A3A5007AB318 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52C7260016D5A3A5007AB318 /* UIKit.framework */,
+				52C7260216D5A3A5007AB318 /* Foundation.framework */,
+				52C7260416D5A3A5007AB318 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52C7260616D5A3A5007AB318 /* ButtonFun */ = {
+			isa = PBXGroup;
+			children = (
+				52C7260F16D5A3A5007AB318 /* ButtonFunAppDelegate.h */,
+				52C7261016D5A3A5007AB318 /* ButtonFunAppDelegate.m */,
+				52C7261816D5A3A5007AB318 /* ButtonFunViewController.h */,
+				52C7261916D5A3A5007AB318 /* ButtonFunViewController.m */,
+				52C7261B16D5A3A5007AB318 /* ButtonFunViewController_iPhone.xib */,
+				52C7261E16D5A3A5007AB318 /* ButtonFunViewController_iPad.xib */,
+				52C7260716D5A3A5007AB318 /* Supporting Files */,
+				AE3ABC1216D6B51700AC70BD /* BFSquare.h */,
+				AE3ABC1316D6B51700AC70BD /* BFSquare.m */,
+			);
+			path = ButtonFun;
+			sourceTree = "<group>";
+		};
+		52C7260716D5A3A5007AB318 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52C7260816D5A3A5007AB318 /* ButtonFun-Info.plist */,
+				52C7260916D5A3A5007AB318 /* InfoPlist.strings */,
+				52C7260C16D5A3A5007AB318 /* main.m */,
+				52C7260E16D5A3A5007AB318 /* ButtonFun-Prefix.pch */,
+				52C7261216D5A3A5007AB318 /* Default.png */,
+				52C7261416D5A3A5007AB318 /* Default@2x.png */,
+				52C7261616D5A3A5007AB318 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52C725FC16D5A3A5007AB318 /* ButtonFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52C7262316D5A3A5007AB318 /* Build configuration list for PBXNativeTarget "ButtonFun" */;
+			buildPhases = (
+				52C725F916D5A3A5007AB318 /* Sources */,
+				52C725FA16D5A3A5007AB318 /* Frameworks */,
+				52C725FB16D5A3A5007AB318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonFun;
+			productName = ButtonFun;
+			productReference = 52C725FD16D5A3A5007AB318 /* ButtonFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52C725F516D5A3A5007AB318 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ButtonFun;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = com.clos;
+			};
+			buildConfigurationList = 52C725F816D5A3A5007AB318 /* Build configuration list for PBXProject "ButtonFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52C725F416D5A3A5007AB318;
+			productRefGroup = 52C725FE16D5A3A5007AB318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52C725FC16D5A3A5007AB318 /* ButtonFun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52C725FB16D5A3A5007AB318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C7260B16D5A3A5007AB318 /* InfoPlist.strings in Resources */,
+				52C7261316D5A3A5007AB318 /* Default.png in Resources */,
+				52C7261516D5A3A5007AB318 /* Default@2x.png in Resources */,
+				52C7261716D5A3A5007AB318 /* Default-568h@2x.png in Resources */,
+				52C7261D16D5A3A5007AB318 /* ButtonFunViewController_iPhone.xib in Resources */,
+				52C7262016D5A3A5007AB318 /* ButtonFunViewController_iPad.xib in Resources */,
+				52C7262716D5BC67007AB318 /* Default.png in Resources */,
+				52C7262916D5BDB0007AB318 /* app_icon.png in Resources */,
+				52C7262B16D5C064007AB318 /* Default-Portrait~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52C725F916D5A3A5007AB318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C7260D16D5A3A5007AB318 /* main.m in Sources */,
+				52C7261116D5A3A5007AB318 /* ButtonFunAppDelegate.m in Sources */,
+				52C7261A16D5A3A5007AB318 /* ButtonFunViewController.m in Sources */,
+				AE3ABC1416D6B51700AC70BD /* BFSquare.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52C7260916D5A3A5007AB318 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52C7260A16D5A3A5007AB318 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		52C7261B16D5A3A5007AB318 /* ButtonFunViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52C7261C16D5A3A5007AB318 /* en */,
+			);
+			name = ButtonFunViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		52C7261E16D5A3A5007AB318 /* ButtonFunViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52C7261F16D5A3A5007AB318 /* en */,
+			);
+			name = ButtonFunViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52C7262116D5A3A5007AB318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52C7262216D5A3A5007AB318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52C7262416D5A3A5007AB318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonFun/ButtonFun-Prefix.pch";
+				INFOPLIST_FILE = "ButtonFun/ButtonFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		52C7262516D5A3A5007AB318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonFun/ButtonFun-Prefix.pch";
+				INFOPLIST_FILE = "ButtonFun/ButtonFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52C725F816D5A3A5007AB318 /* Build configuration list for PBXProject "ButtonFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C7262116D5A3A5007AB318 /* Debug */,
+				52C7262216D5A3A5007AB318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52C7262316D5A3A5007AB318 /* Build configuration list for PBXNativeTarget "ButtonFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C7262416D5A3A5007AB318 /* Debug */,
+				52C7262516D5A3A5007AB318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52C725F516D5A3A5007AB318 /* Project object */;
+}
