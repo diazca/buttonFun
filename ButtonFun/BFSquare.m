@@ -7,24 +7,19 @@
 //
 
 #import "BFSquare.h"
-
 @implementation BFSquare
 
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
-        self.backgroundColor = [self getRandomColor];
-        UITapGestureRecognizer *singleFingerTap =
-        [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(setViewColor:)];
-        [self addGestureRecognizer:singleFingerTap];
-       
+        self.backgroundColor = [self getRandomColor];       
     }
     return self;
 }
-- (void)setViewColor:(UITapGestureRecognizer *)recognizer
+- (void)setViewColor
 {
-    recognizer.view.backgroundColor = [self getRandomColor];
+    self.backgroundColor = [self getRandomColor];
 }
 -(UIColor *)getRandomColor
 {
@@ -35,7 +30,9 @@
 {
     return (arc4random() % 255)/255.0;
 }
-
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+    [self setViewColor];
+}
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
